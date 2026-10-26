@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-navy-950 text-slate-200 antialiased; background-image: radial-gradient(ellipse at top, #0d1b3a 0%, #050b1a 60%); min-height: 100vh; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #1d3563; border-radius: 4px; }
+@keyframes pulseRed { 0%,100% { opacity: 1 } 50% { opacity: .45 } }
+.pulse-red { animation: pulseRed 1.4s ease-in-out infinite; }
